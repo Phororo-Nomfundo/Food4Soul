@@ -62,7 +62,8 @@ nav{
 }
 
   .disableBlur {
-    filter: none;
+    /*filter: none;*/
+    backdrop-filter: blur(0px);
    
   }
 
@@ -70,7 +71,7 @@ nav{
   .bg{
  
 
-   background-image: url("image/drink.jpg");
+  background-image: url("image/pop1.jpg"); 
     /* Full height */
   height: 100%; 
 
@@ -78,9 +79,10 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-  
-  /* Add the blur effect */
-  filter: blur(3px);
+/*   
+ Add the blur effect 
+  -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px); */
 
 
  
