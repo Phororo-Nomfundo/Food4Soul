@@ -60,10 +60,7 @@ nav{
     padding-bottom: 60px;
   
 }
-body, html {
-    height: 100%;
-    margin: 0;
-  }
+
   .disableBlur {
     filter: none;
    
