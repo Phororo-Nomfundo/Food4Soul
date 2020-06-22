@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.fa-sign-in-alt{
+    height: 1em;
+}
+section{
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 100px;
+    margin: auto;
+    width:90%;
+    height: 20%;
+    display:flex;
+    justify-content: space-between;
+}
+#contactus{
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 20px;
+    padding-top: 10px;
+    margin: auto;
+    width:90%;
+    height: 20%;
+    display:flex;
+    
+}
+nav{
+    color: white;
+
+}
+#info{
+    font-size: 1rem;
+}
+.moreinfo{
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    width:90%;
+    margin: auto;
+    align-items: center;
+}
+.box{
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 100px;
+    margin: auto;
+    
+   width: 90%;
+    height: 20%;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .disableBlur {
+    filter: none;
+   
+  }
+
+
+  .bg{
+ 
+
+   background-image: url("image/drink.jpg");
+    /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+  /* Add the blur effect */
+  filter: blur(3px);
+
+
+ 
+
+
+  
+}
+.form{
+    width: 80%;
+    align-items: center;
+    align-content: center;
+}
+
+
+ 
+.cardimg{
+    height:10%;
+    width: 100%;
+}
