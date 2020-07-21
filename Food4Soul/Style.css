@@ -18,6 +18,22 @@ section{
     display:flex;
     justify-content: space-between;
 }
+#dropdown{
+    margin-top:40px; 
+}
+.card-columns {
+   
+    margin: auto;
+ 
+
+    padding: 40px; 
+    margin-top:40px;
+    padding-left: 9.5%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width:100%;
+  }
 #contactus{
     margin-top:40px;
     justify-content: center;
@@ -46,21 +62,34 @@ nav{
     align-items: center;
 }
 .box{
-    margin-top:30px;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding-top: 100px;
-    margin: auto;
     
-   width: 90%;
-    height: 20%;
-    display:flex;
-    justify-content: space-between;
-    padding-bottom: 60px;
+        margin-top:40px;
+        
+        justify-content: center;
+        align-items: center;
+        background-color: #e5e2e5;
+        border: 1px solid black;
+        margin: auto;
+        width:90%;
   
 }
+.itemContainer{
 
+    background-color: #5A5556;
+       color: white;
+       font-size: 1.5rem;
+       display: flex;
+       justify-content: space-between;
+       /* align-items:center; */
+}
+.itemContainer li{
+    flex:1;
+}
+
+
+.recipeItem{
+    padding: 0rem 0.5rem;
+}
   .disableBlur {
     /*filter: none;*/
     backdrop-filter: blur(0px);
@@ -95,8 +124,15 @@ nav{
     align-items: center;
     align-content: center;
 }
+.repimg{
 
-
+    width: 100%;
+}
+.recipediv{
+    width: 90%;
+    margin-top:40px;
+    margin-left: 5%;
+}
  
 .cardimg{
     height:10%;
